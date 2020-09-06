@@ -51,7 +51,7 @@ function AppAppBar(props) {
           >
             {'PROP EXPLORER'}
           </Link>
-          {/* <div className={classes.right}>
+          <div className={classes.right}>
             <Link
               color="inherit"
               variant="h6"
@@ -59,7 +59,7 @@ function AppAppBar(props) {
               className={classes.rightLink}
               href="/premium-themes/onepirate/sign-in/"
             >
-              {'Sign In'}
+              {/* {'Sign In'} */}
             </Link>
             <Link
               variant="h6"
@@ -67,9 +67,9 @@ function AppAppBar(props) {
               className={clsx(classes.rightLink, classes.linkSecondary)}
               href="/premium-themes/onepirate/sign-up/"
             >
-              {'Sign Up'}
+              {/* {'Sign Up'} */}
             </Link>
-          </div> */}
+          </div>
         </Toolbar>
       </AppBar>
       <div className={classes.placeholder} />
