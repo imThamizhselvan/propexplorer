@@ -48,11 +48,10 @@ function AppAppBar(props) {
             underline="none"
             color="inherit"
             className={classes.title}
-            href="/premium-themes/onepirate/"
           >
             {'PROP EXPLORER'}
           </Link>
-          <div className={classes.right}>
+          {/* <div className={classes.right}>
             <Link
               color="inherit"
               variant="h6"
@@ -70,7 +69,7 @@ function AppAppBar(props) {
             >
               {'Sign Up'}
             </Link>
-          </div>
+          </div> */}
         </Toolbar>
       </AppBar>
       <div className={classes.placeholder} />
