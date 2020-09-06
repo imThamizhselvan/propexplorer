@@ -66,7 +66,7 @@ function ProductValues(props) {
                 Multiple Projects
               </Typography>
               <Typography variant="h5">
-                {'You will get exclusive access to information about many projects, now choose your next property with a range of choices across the country.'}
+                {'You will get exclusive access to information about many projects, now choose your next property with a range of choices from across the country.'}
               </Typography>
             </div>
           </Grid>
