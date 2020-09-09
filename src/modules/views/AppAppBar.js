@@ -5,10 +5,17 @@ import { withStyles } from '@material-ui/core/styles';
 import Link from '@material-ui/core/Link';
 import AppBar from '../components/AppBar';
 import Toolbar, { styles as toolbarStyles } from '../components/Toolbar';
+import imageLogo from '../../images/image.png';
+
 
 const styles = (theme) => ({
   title: {
     fontSize: 24,
+  },
+  height75: {
+    top: '2px',
+    height: '60px',
+    display: 'flex',
   },
   placeholder: toolbarStyles(theme).root,
   toolbar: {
@@ -49,7 +56,7 @@ function AppAppBar(props) {
             color="inherit"
             className={classes.title}
           >
-            {'PROP EXPLORER'}
+            <img className={classes.height75} src={imageLogo} ></img>
           </Link>
           <div className={classes.right}>
             <Link

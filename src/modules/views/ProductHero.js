@@ -8,7 +8,7 @@ import ProductHeroLayout from './ProductHeroLayout';
 
 
 const backgroundImage =
-  'https://images.unsplash.com/photo-1534854638093-bada1813ca19?auto=format&fit=crop&w=1400&q=80';
+  'https://images.unsplash.com/photo-1582407947304-fd86f028f716?auto=format&fit=crop&w=1400&q=80';
 
 const styles = (theme) => ({
   background: {
