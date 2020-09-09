@@ -56,7 +56,7 @@ function AppAppBar(props) {
             color="inherit"
             className={classes.title}
           >
-            <img className={classes.height75} src={imageLogo} ></img>
+            <img className={classes.height75} src={imageLogo} alt="logo"></img>
           </Link>
           <div className={classes.right}>
             <Link
